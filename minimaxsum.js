@@ -38,9 +38,11 @@ function miniMaxSum(arr) {
     const removeFirstNumber = sortedArray.shift();
     const minSum = sortedArray.reduce((a, b) => a + b, 0);
 
-    
-
+    //print max and min
+    return console.log(maxSum, minSum);
 }
+
+
 
 function main() {
 
