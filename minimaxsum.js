@@ -29,6 +29,8 @@ function readLine() {
 function miniMaxSum(arr) {
     // sort array
     const sortedArray = arr.sort((a, b) => a - b);
+    // removing last number
+    const remoteLastNumber = sortedArray.pop()
     
 
 }
