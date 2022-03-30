@@ -42,6 +42,8 @@ function miniMaxSum(arr) {
     return console.log(maxSum, minSum);
 }
 
+const arr = [5, 4, 3, 2, 1];
+miniMaxSum(arr)
 
 
 function main() {
