@@ -30,8 +30,9 @@ function miniMaxSum(arr) {
     // sort array
     const sortedArray = arr.sort((a, b) => a - b);
     // removing last number
-    const remoteLastNumber = sortedArray.pop()
-    
+    const removeLastNumber = sortedArray.pop()
+    const maxSum = sortedArray.reduce((a, b) => a + b, 0);
+    sortedArray.push(removeLastNumber);
 
 }
 
